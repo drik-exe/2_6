@@ -31,6 +31,11 @@ int main() {
         cout << "Сумма = " << a + b << endl;
         cout << "Произведение = " << a * b << endl;
     }
+    int arr[12]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    int mounth, day;
+    cout << "введите меяц и день: ";
+    cin >> mounth >> day;
+    cout << endl << "до конца месяца осталось " << arr[mounth] - day << " дн." << endl;
 
     if(a%2 == 0 && b%2 == 0){
         if(a > b){
